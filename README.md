@@ -11,22 +11,22 @@ Column3: IDs of existing test cases (supports lists)
 
 *What the script does...*
 
-> Read in the CSV
+*Read in the CSV
 
-> Step through the plans
->> make sure every plan is only checked once
->> check if it exists already
->>> if not, create it
->>> https://www.visualstudio.com/en-us/docs/integrate/api/test/plans
+*Step through the plans
+  *make sure every plan is only checked once
+  *check if it exists already
+    *if not, create it
+    *https://www.visualstudio.com/en-us/docs/integrate/api/test/plans
 
-> Step through each line
->> run a recursive query to make sure the suite tree structure exists
->> if the requested tree or parts of it do not exist, create the relevant suite(s)
->>> https://www.visualstudio.com/en-us/docs/integrate/api/test/suites
->> create an array of test cases (delimiter: "/")
->> check what test cases are assigned to the suite already
->>> assign those that are missing
->>> https://www.visualstudio.com/en-us/docs/integrate/api/test/casesit
+*Step through each line
+  *run a recursive query to make sure the suite tree structure exists
+  *if the requested tree or parts of it do not exist, create the relevant suite(s)
+    *https://www.visualstudio.com/en-us/docs/integrate/api/test/suites
+  *create an array of test cases (delimiter: "/")
+  *check what test cases are assigned to the suite already
+    *assign those that are missing
+    *https://www.visualstudio.com/en-us/docs/integrate/api/test/casesit
 
 *More Info*
 
