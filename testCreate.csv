@@ -1,0 +1,9 @@
+Plan Name,Test Suite Name,Test Case ID
+MyExcelGeneratedPlan,MyCycle/C1/Scenario1,341
+MyExcelGeneratedPlan,MyCycle/C1/Scenario2,343
+MyExcelGeneratedPlan,MyCycle/C1/Scenario2,175
+MyExcelGeneratedPlan,MyCycle/C2/Scenario1,175
+MyExcelGeneratedPlan,MyCycle/C2/Scenario1,171
+MyExcelGeneratedPlan,MyCycle/C2/Scenario1,36
+MyExcelGeneratedPlan,MySuite,35/171/175
+MyOtherPlan,MySuite/ExtraLevel/AnotherLevel,36
